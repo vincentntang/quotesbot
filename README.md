@@ -1,3 +1,14 @@
+# Windows 10 Install
+
+- Download AnacondaPython
+- Install with optional ✓ path
+- "Anaconda Navigator" → new environment → "ScrapyEnv"
+- Save
+- Open Anaconda Command Prompt
+- `activate ScrapyEnv`
+- `"cd [project_path]/[project]/spiders"`
+- `scrapy crawl toscrape-css -o quotes.csv`
+
 # QuotesBot
 This is a Scrapy project to scrape quotes from famous people from http://quotes.toscrape.com ([github repo](https://github.com/scrapinghub/spidyquotes)).
 
@@ -41,3 +52,7 @@ You can run a spider using the `scrapy crawl` command, such as:
 If you want to save the scraped data to a file, you can pass the `-o` option:
     
     $ scrapy crawl toscrape-css -o quotes.json
+
+If you want to save scraped data to a csv file, use the following:
+    
+    $ scrapy crawl toscrape-css -o quotes.csv
