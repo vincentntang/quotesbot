@@ -14,6 +14,8 @@ This is a Scrapy project to scrape quotes from famous people from http://quotes.
 
 This project is only meant for educational purposes.
 
+Quotes does not drill into additional pages
+
 
 ## Extracted data
 
